@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
+        android:onClick="startOneshotBackupActivity"
         android:text="One shot backup"
         app:layout_constraintBottom_toTopOf="@+id/restore_button"
         app:layout_constraintEnd_toEndOf="parent"

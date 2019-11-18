@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun startOneshotBackupActivity(){
+    fun startOneshotBackupActivity(view: View){
         val intent= Intent(this, OneshotBackup::class.java)
         startActivity(intent)
     }
