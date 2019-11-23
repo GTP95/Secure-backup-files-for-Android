@@ -16,4 +16,8 @@ class MainActivity : AppCompatActivity() {
         val intent= Intent(this, OneshotBackup::class.java)
         startActivity(intent)
     }
+    fun startManageBackupLocationsActivity(view: View){
+        val intent=Intent(this, ManageBackupLocations::class.java)
+        startActivity(intent)
+    }
 }
